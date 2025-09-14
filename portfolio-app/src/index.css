@@ -3,3 +3,16 @@
 	margin: 0;
 	padding: 0;
 }
+
+ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+li {
+	list-style-type: none;
+	padding: 0.5rem;
+	border: 2px solid black;
+	border-radius: 15px;
+}
