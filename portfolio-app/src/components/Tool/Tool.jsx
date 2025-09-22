@@ -1,9 +1,13 @@
-import reactLogo from "../../assets/react.svg";
+import "./tool.css";
 
 function Tool({ tool }) {
 	return (
-		<li>
-			<img src={reactLogo} alt={`${tool} logo`} />
+		<li className='project__tool-item'>
+			<img
+				className='project__tool-img'
+				src={`/logos/${tool}.svg`}
+				alt={`${tool} logo`}
+			/>
 			{tool}
 		</li>
 	);

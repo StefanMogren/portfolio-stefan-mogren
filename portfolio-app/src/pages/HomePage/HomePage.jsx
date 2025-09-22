@@ -11,9 +11,11 @@ function HomePage() {
 
 			<section>
 				<h2>Work I've done</h2>
-				{projects.map((project) => (
-					<Project content={project} />
-				))}
+				<ul>
+					{projects.map((project, index) => (
+						<Project content={project} key={index} />
+					))}
+				</ul>
 				{/* Map through array. For each item, create a Project component with content. */}
 			</section>
 		</main>

@@ -5,27 +5,29 @@ import Tool from "../Tool/Tool.jsx";
 
 function Project({ content }) {
 	return (
-		<section>
+		<li className='project'>
 			{/* Take content received and add an image plus text. */}
 			{/* content.image => img */}
 			<div>image here</div>
-			<div>
-				<h3>{content.title}</h3>
+			<section className='project__text-container'>
+				<h3 className='project__title'>{content.title}</h3>
 				{/* content.description => p */}
-				<p>Short description of the project</p>
-				<ul>
+				<p className='project__description'>Short description of the project</p>
+				<ul className='project__summary-list'>
 					{/* content.summaries.map(li) */}
-					<li>One sentence summary</li>
-					<li>One sentence summary</li>
-					<li>One sentence summary</li>
-				</ul>
-				<ul>
-					{content.tools.map((tool) => (
-						<Tool tool={tool} />
+					{content.summaries.map((summary, index) => (
+						<li className='project__summary-item' key={index}>
+							{summary}
+						</li>
 					))}
 				</ul>
-			</div>
-		</section>
+				<ul className='project__tool--list'>
+					{content.tools.map((tool) => (
+						<Tool tool={tool} key={tool} />
+					))}
+				</ul>
+			</section>
+		</li>
 	);
 }
 
