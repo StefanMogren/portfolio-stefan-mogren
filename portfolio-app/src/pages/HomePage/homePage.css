@@ -1,0 +1,10 @@
+.homePage {
+	padding: 1rem;
+	background-color: rgb(50, 50, 50);
+}
+
+.homePage__project-list {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}

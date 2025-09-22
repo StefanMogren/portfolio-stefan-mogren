@@ -1,6 +1,6 @@
 export const projects = [
 	{
-		title: "Bonzai, hotel",
+		title: "Bonzai Hotel",
 		img: "Bonzai",
 		description: "Made this thing",
 		summaries: [
