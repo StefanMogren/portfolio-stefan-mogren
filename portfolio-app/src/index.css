@@ -2,5 +2,14 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	color: rgb(224, 230, 235);
+	color: rgb(246, 246, 246);
+}
+
+body {
+	background-color: rgb(50, 50, 50);
+}
+
+.page-container {
+	max-width: 1200px;
+	margin: auto;
 }

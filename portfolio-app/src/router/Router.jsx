@@ -10,10 +10,12 @@ export const Router = () => {
 	return (
 		<>
 			<BrowserRouter>
-				<Header />
-				<Routes>
-					<Route path='/' element={<HomePage />} />
-				</Routes>
+				<section className='page-container'>
+					<Header />
+					<Routes>
+						<Route path='/' element={<HomePage />} />
+					</Routes>
+				</section>
 			</BrowserRouter>
 		</>
 	);
