@@ -10,18 +10,20 @@ function Project({ content }) {
 		<li className='project'>
 			{/* ----- Bildbehållaren för projektet ----- */}
 			<div className='project__img-container'>
-				<img
-					className='project__img'
-					src={`/projectImg/${content.title}.jpg`}
-					alt={content.title + " project page"}
-				/>
+				<div className='project__img-bg-margin'>
+					<img
+						className='project__img'
+						src={`/projectImg/${content.title}.jpg`}
+						alt={content.title + " project page"}
+					/>
+				</div>
 			</div>
 
 			{/* ----- Textbehållaren angående projektet ----- */}
 			<section className='project__text-container'>
 				<h3 className='project__title'>{content.title}</h3>
 				{/* content.description => p */}
-				<p className='project__description'>Short description of the project</p>
+				<p className='project__description'>{content.description}</p>
 
 				{/* ----- Puntlistan med summeringar ----- */}
 				<ul className='project__summary-list'>
