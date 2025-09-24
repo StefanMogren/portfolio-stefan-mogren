@@ -14,19 +14,6 @@ export const projects = [
 		summaries: ["School solo project", "Frontend", "Even more useful stuff"],
 		tools: ["HTML", "CSS", "JavaScript"],
 	},
-	/* {
-		title: "Bonzai Hotel, backend",
-		img: "MyMovieDatabase",
-		description:
-			"School group project. Only backend work with MongoDB and API:s.",
-		summaries: [
-			"School project",
-			"Backend",
-			"More interesting things",
-			"Even more useful stuff",
-		],
-		tools: ["AWS", "DynamoDB", "JavaScript"],
-	}, */
 	{
 		title: "Total Expenditure app",
 		img: "TotalExpenditure",
@@ -46,7 +33,7 @@ export const projects = [
 		title: "AI Game Master",
 		img: "AiGameMaster",
 		description:
-			"A web game with an AI Game Master where the player is presented a story they have to overcome by giving prompts to the AI.",
+			"A WIP web game with an AI Game Master where the player is presented a story they have to overcome by giving prompts to the AI.",
 		summaries: ["Hobby project", "Fullstack", "Interactive game"],
 		tools: ["HTML", "CSS", "JavaScript", "React", "OpenAI", "MongoDB"],
 	},

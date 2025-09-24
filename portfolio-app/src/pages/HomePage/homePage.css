@@ -2,6 +2,11 @@
 	padding: 1rem;
 }
 
+.homePage__portrait-img {
+	border-radius: 50%;
+	height: 2rem;
+}
+
 .homePage__project-list {
 	display: flex;
 	flex-direction: column;

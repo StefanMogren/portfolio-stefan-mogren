@@ -11,7 +11,7 @@ export const Router = () => {
 		<>
 			<BrowserRouter>
 				<section className='page-container'>
-					<Header />
+					{/* <Header /> */}
 					<Routes>
 						<Route path='/' element={<HomePage />} />
 					</Routes>
