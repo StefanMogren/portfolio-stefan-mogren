@@ -1,0 +1,16 @@
+export const toolsData = [
+	"HTML",
+	"CSS",
+	"JavaScript",
+	"React",
+	"MongoDB",
+	"Vite",
+	"Zustand",
+	"TypeScript",
+	"React Native",
+	"OpenAI",
+	"Expo Go",
+	"AWS",
+	"MongoDB",
+	"Serverless",
+];

@@ -10,7 +10,7 @@ function Project({ content }) {
 		<li className='project'>
 			{/* ----- Bildbehållaren för projektet ----- */}
 			<div className='project__img-container'>
-				<div className='project__img-bg-margin'>
+				<div className='project__img-bg'>
 					<img
 						className='project__img'
 						src={`/projectImg/${content.title}.jpg`}

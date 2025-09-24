@@ -2,9 +2,19 @@
 	padding: 1rem;
 }
 
+.homePage__all-tools-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .homePage__portrait-img {
 	border-radius: 50%;
 	height: 2rem;
+}
+
+.homePage__linkedin-logo {
+	width: 2rem;
 }
 
 .homePage__project-list {

@@ -10,13 +10,14 @@
 	border-radius: 30px;
 }
 
-.project__img-bg-margin {
+.project__img-bg {
+	margin: 0.5rem;
+	padding: 0.5rem 0.5rem 0rem;
 	display: flex;
 	justify-content: center;
 	border-radius: 25px;
-	margin: 0.5rem;
-	padding: 0.5rem 0.5rem 0rem;
 	background: linear-gradient(#e66465, #9198e5);
+	height: 100%;
 	overflow: hidden;
 }
 

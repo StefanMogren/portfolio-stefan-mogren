@@ -3,22 +3,22 @@ export const projects = [
 		title: "Yum Yum Gimmie Sum",
 		img: "Airbean",
 		description:
-			"Group project of foodtrucks. See menus, make orders, choose which foodtruck to pick the order from, and see your receit.",
-		summaries: ["School group project", "Frontend", "Even more useful stuff"],
+			"A web app for phones were you can see menus, make orders, choose which foodtruck to pick the order from, and see your receit.",
+		summaries: ["School group project", "Frontend"],
 		tools: ["HTML", "CSS", "JavaScript"],
 	},
 	{
 		title: "Bonzai Hotel",
 		img: "Bonzai",
-		description: "Solo pr",
-		summaries: ["School solo project", "Frontend", "Even more useful stuff"],
+		description: "Web page for a hotel centered around AI and healthy living.",
+		summaries: ["School solo project", "Frontend"],
 		tools: ["HTML", "CSS", "JavaScript"],
 	},
 	{
 		title: "Total Expenditure app",
 		img: "TotalExpenditure",
 		description:
-			"Mobile app where a group adds expenses in order to calculate how much everyone will owe each other to make sure everyone pays",
+			"Mobile app where a group add all expenses made. Then calculate and split the expenses evenly among everyone.",
 		summaries: ["Hobby project", "Fullstack", "iPhone app"],
 		tools: [
 			"HTML",
@@ -41,13 +41,8 @@ export const projects = [
 		title: "Airbean",
 		img: "MyMovieDatabase",
 		description:
-			"Group project where we designed backend only for a coffee shop. Showing the menu, select items, and publish order.",
-		summaries: [
-			"School group project",
-			"Backend",
-			"More interesting things",
-			"Even more useful stuff",
-		],
+			"A backend only project for a coffee shop. Fetches the menu, select items, and publish order.",
+		summaries: ["School group project", "Backend"],
 		tools: ["MongoDB", "JavaScript", "React"],
 	},
 ];
