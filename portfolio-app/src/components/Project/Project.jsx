@@ -11,11 +11,15 @@ function Project({ content }) {
 			{/* ----- Bildbehållaren för projektet ----- */}
 			<div className='project__img-container'>
 				<div className='project__img-bg'>
-					<img
-						className='project__img'
-						src={`/projectImg/${content.title}.jpg`}
-						alt={content.title + " project page"}
-					/>
+					<div className='project__img-wrapper'>
+						{
+							<img
+								className='project__img'
+								src={`/projectImg/${content.title}.jpg`}
+								alt={content.title + " project page"}
+							/>
+						}
+					</div>
 				</div>
 			</div>
 

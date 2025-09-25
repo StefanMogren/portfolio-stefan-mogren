@@ -43,6 +43,6 @@ export const projects = [
 		description:
 			"A backend only project for a coffee shop. Fetches the menu, select items, and publish order.",
 		summaries: ["School group project", "Backend"],
-		tools: ["MongoDB", "JavaScript", "React"],
+		tools: ["MongoDB", "JavaScript", "React", "Node"],
 	},
 ];

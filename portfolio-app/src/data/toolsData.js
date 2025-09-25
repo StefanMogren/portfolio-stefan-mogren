@@ -11,6 +11,6 @@ export const toolsData = [
 	"OpenAI",
 	"Expo Go",
 	"AWS",
-	"MongoDB",
 	"Serverless",
+	"Node",
 ];

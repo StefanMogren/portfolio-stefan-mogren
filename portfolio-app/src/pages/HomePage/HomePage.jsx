@@ -11,17 +11,22 @@ function HomePage() {
 	return (
 		<main className='homePage'>
 			<h1 className='homePage__title'>My portfolio</h1>
+			<p></p>
 			<p>
 				I enjoy solving challenges through code, finding solutions to tricky
 				issues.
 			</p>
-			<p>Hello, I'm Stefan Mogren, a student and aspiring web developer.</p>
-			<h2>Every tool I've worked with</h2>
-			<ul className='homePage__all-tools-list'>
-				{toolsData.map((tool) => (
-					<Tool tool={tool} key={tool} />
-				))}
-			</ul>
+			<p>
+				Hello. I'm Stefan Mogren, a student at Frontend development in Sweden.
+			</p>
+			<section>
+				<h2>Every tool I've worked with</h2>
+				<ul className='homePage__all-tools-list'>
+					{toolsData.map((tool) => (
+						<Tool tool={tool} key={tool} />
+					))}
+				</ul>
+			</section>
 
 			<img
 				className='homePage__portrait-img'
@@ -47,6 +52,9 @@ function HomePage() {
 						<Project content={project} key={index} />
 					))}
 				</ul>
+			</section>
+			<section>
+				<p>Hello, I'm Stefan Mogren, a student and aspiring web developer.</p>
 			</section>
 		</main>
 	);
