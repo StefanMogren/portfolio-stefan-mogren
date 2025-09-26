@@ -1,0 +1,12 @@
+.contact-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.7rem;
+}
+
+.contact-info__email {
+	padding: 0.5rem 0.7rem;
+	border: 2px solid black;
+	border-radius: 50px;
+}
