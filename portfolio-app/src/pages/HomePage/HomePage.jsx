@@ -12,16 +12,22 @@ function HomePage() {
 	return (
 		<main className='homePage'>
 			{/* ----- Intro ----- */}
-			<h1 className='homePage__title'>My portfolio</h1>
-			<p>
-				Hello. I'm Stefan Mogren,
-				<img
-					className='homePage__portrait-img'
-					src='/assets/photo.jpg'
-					alt='Portrait of Stefan'
-				/>{" "}
-				a student at Frontend development in Sweden.
-			</p>
+			{/* <h1 className='homePage__title'>My portfolio</h1> */}
+			<h1 className='homePage__title'>
+				<span className='homePage__flex-row'>
+					Hello. I'm Stefan Mogren
+					<img
+						className='homePage__portrait-img'
+						src='/assets/photo.jpg'
+						alt='Portrait of Stefan'
+					/>
+				</span>
+				<span>
+					A student and aspiring web developer
+					<br />
+					both frontend and backend
+				</span>
+			</h1>
 			<ContactInfo />
 
 			{/* ----- My Tools ----- */}
@@ -48,6 +54,7 @@ function HomePage() {
 
 			{/* ----- About me ----- */}
 			<section className='homePage__about-me'>
+				<h2>Know about me</h2>
 				<p className=''>
 					Hello, I'm Stefan Mogren, a student and aspiring web developer both
 					frontend and backend. I enjoy solving challenges through code, finding
@@ -57,15 +64,14 @@ function HomePage() {
 				</p>
 				<p>
 					When I'm not working, I enjoy writing stories for others to read.
-					Figuring out interesting and dramatic encounters for my characters is
-					fun!
+					Figuring out interesting and dramatic encounters for my characters
+					lets me think from many different perspectives.
 				</p>
 				<p>I believe in a healthy and balanced lifestyle</p>
-
-				{/* ----- Contact ----- */}
-
-				<ContactInfo />
 			</section>
+
+			{/* ----- Contact ----- */}
+			<ContactInfo />
 		</main>
 	);
 }
